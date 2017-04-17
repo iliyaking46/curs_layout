@@ -1,3 +1,4 @@
+@import "http://fonts.fontstorage.com/import/classicaone.css";
 /* Крошки */
 .breadcrumb{
     color: #bfbfbf;
@@ -119,9 +120,10 @@
 /* Навигация */
 .navbar-center{
     font-size: 40px;
-    font-family: 'classicatwo';
+    font-family: 'Classica One';
     padding-top: 22px;
     padding-bottom: 0;
+    font-weight: 600;
 }
 nav {
     text-align:center;
@@ -181,6 +183,10 @@ a {
 }
 
 a:hover {
+    color: #0f0f0f;
+    text-decoration: none;
+}
+a:focus{
     color: #0f0f0f;
     text-decoration: none;
 }
