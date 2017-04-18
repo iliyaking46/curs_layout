@@ -182,6 +182,10 @@ nav li a:hover {
 .carousel-indicators li{
     border-color:  #bfbfbf;
 }
+.carousel-control:focus{
+    opacity: 0.5;
+}
+
 .menu-icon{
     margin-top: -100px;
     width: 80%;
@@ -195,12 +199,12 @@ nav li a:hover {
     clear: both;
 }
 
-.footer{
+footer{
     width:100%;
     height: 50px;
     background: #960018;
-    border-top: 1px;
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 /*скаффолды*/
@@ -216,4 +220,4 @@ a:hover {
 a:focus{
     color: #0f0f0f;
     text-decoration: none;
-}
+} 
